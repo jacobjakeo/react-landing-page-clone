@@ -1,0 +1,222 @@
+header {
+  position: static;
+  top: 0;
+}
+
+.buttons {
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  color: #0e0f11;
+  font-weight: 500;
+  border-color: white;
+  background-color: white;
+  border: 0;
+  font-size: 1rem;
+}
+
+.navbarContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .navbarLogo {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    order: 1;
+    flex-grow: 1;
+  }
+
+  img {
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .navbarLinks {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    flex-grow: 2;
+    justify-content: flex-end;
+    gap: 10px;
+
+    :last-child {
+      margin-right: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #a2a2a2;
+    }
+
+    a:hover {
+      color: white;
+    }
+
+    a:active {
+      color: white;
+    }
+  }
+
+  .navbarButton {
+    order: 3;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+div {
+  flex: 1;
+}
+
+.introPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  color: white;
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+  }
+
+  b {
+    color: white;
+  }
+
+  .introPageText {
+    order: 1;
+    text-align: center;
+    display: flex;
+    color: #a2a2a2;
+    line-height: 1.7;
+  }
+
+  .introPageButton {
+    order: 2;
+    display: flex;
+  }
+
+  .introPageImage {
+    order: 3;
+    display: flex;
+    padding-top: 20px;
+
+    img {
+      width: 780px;
+      height: 510px;
+      border-radius: 5%;
+    }
+  }
+}
+
+.featuresPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  color: white;
+  text-align: center;
+
+  h3 {
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+  }
+
+  p {
+    color: #a2a2a2;
+    text-align: center;
+    display: flex;
+    line-height: 1.7;
+  }
+}
+
+.featuresPageGrid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  width: 100vw;
+  height: 100vh;
+  color: #a2a2a2;
+  margin: 0;
+  @media screen and (max-width: 60em) {
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  h4 {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  b {
+    color: white;
+  }
+  .featuresPageGridItem1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    @media screen and (max-width: 60em) {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row: 1;
+    }
+  }
+  .featuresPageGridItem2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 1;
+    @media screen and (max-width: 60em) {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row: 2;
+    }
+  }
+  .featuresPageGridItem3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    @media screen and (max-width: 60em) {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row: 3;
+    }
+  }
+  .featuresPageGridItem4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 2;
+    @media screen and (max-width: 60em) {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row: 4;
+    }
+  }
+}
