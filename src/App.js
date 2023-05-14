@@ -1,6 +1,5 @@
 import styles from './App.module.scss';
 // Logo & images imports
-import logogif from './desigmaestrologo.gif';
 import designmaestro from './designmaestro.png';
 import dmbanner from './dmbanner.png';
 // Icons imports
@@ -8,7 +7,6 @@ import lightweighticon from './iconsfolder/lightweighticon.png';
 import macrosicon from './iconsfolder/macrosicon.png';
 import setupicon from './iconsfolder/setupicon.png';
 import shortcuticon from './iconsfolder/shortcuticon.png';
-import videoicon from './iconsfolder/videoicon.png';
 import logo from './logo-dm.svg';
 
 export default function App() {
@@ -210,7 +208,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -231,7 +228,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -251,7 +247,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -274,7 +269,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -295,7 +289,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -316,7 +309,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -337,7 +329,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -358,7 +349,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -379,7 +369,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -401,7 +390,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -423,7 +411,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -444,7 +431,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
@@ -465,7 +451,6 @@ export default function App() {
                 </div>
                 <div className={styles.macrosPageGridButton}>
                   <div className={styles.mPGWrapper}>
-                    <div className={styles.mPGIcon}></div>
                     <div className={styles.mPGText}>Video Preview</div>
                   </div>
                 </div>
