@@ -578,10 +578,13 @@ export default function App() {
                   I want to support this project. How can I do that?
                 </div>
                 <div className={styles.FAQDesc}>
-                  Enjoying Design Maestro? We are super happy! Rate us 5⭐️ on
-                  Gumroad. Share a link to our website with your friends. Donate
-                  on Gumroad by entering your amount in the Name a fair price
-                  input.
+                  Enjoying Design Maestro? We are super happy! Rate us 5{' '}
+                  <span role="img" aria-label="Star">
+                    ⭐️
+                  </span>{' '}
+                  on Gumroad. Share a link to our website with your friends.
+                  Donate on Gumroad by entering your amount in the Name a fair
+                  price input.
                 </div>
               </div>
             </div>
